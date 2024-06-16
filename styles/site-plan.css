@@ -5,7 +5,7 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: powderblue   ;
+  --primary-color: #937855;
   --secondary-color: bisque ;
   --accent1-color: khaki;
   --accent2-color: black;
