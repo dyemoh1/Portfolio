@@ -17,7 +17,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted look */
 }
 
-/* Header Styles */
+
 header {
     background-color: #9AE19D;
     padding: 20px 30px; 
@@ -29,7 +29,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* Logo Styles */
+
 #logo img {
     height: 70px; 
     transition: transform 0.3s ease; 
@@ -69,7 +69,7 @@ nav a:hover {
     color: #ff0; 
 }
 
-/* Main Content Styles */
+
 .main-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -226,4 +226,110 @@ footer a:hover img {
 
 footer .social-links {
     margin-top: 10px;
+}
+
+.work-background-page body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; 
+    color: #333; 
+}
+
+.work-background-page header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-background-page header #logo img {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.work-background-page header nav {
+    margin-right: 20px;
+}
+
+.work-background-page header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.work-background-page header nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.work-background-page main.background-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.work-background-page .page2-msg h2 {
+    font-size: 1.2em;
+    line-height: 1.6;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.work-background-page .pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-background-page .pics img {
+    width: 48%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.work-background-page .pics img:hover {
+    transform: scale(1.05);
+}
+
+.work-background-page footer {
+    background-color: #40e0d0;
+    color: #333; 
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-background-page footer p {
+    margin: 0;
+}
+
+.work-background-page footer a {
+    margin: 0 10px;
+    color: #333; 
+    text-decoration: none;
+}
+
+.work-background-page footer a img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.work-background-page footer a:hover {
+    color: #555;
 }
