@@ -333,3 +333,136 @@ footer .social-links {
 .work-background-page footer a:hover {
     color: #555;
 }
+
+
+
+.interest-body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Container to center content */
+.interest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 100%;
+}
+
+/* Header Styles */
+.interest-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.interest-logo img {
+    height: 50px;
+}
+
+.interest-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interest-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.interest-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+.interest-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+@media(min-width: 768px) {
+    .interest-main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 1024px) {
+    .interest-main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.interest-pic1, .interest-pic2 {
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+}
+
+.interest-pics img {
+    width: 100%;
+    height: auto;
+    max-width: 700px; /* Increase maximum width */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.interest-title-section {
+    grid-column: span 3;
+    text-align: center;
+}
+
+.interest-title h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.interest-title p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer Styles */
+.interest-footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2c3e50; /* Darker background color */
+    margin-top: 20px;
+    color: #ecf0f1; /* Lighter text color */
+}
+
+.interest-footer p {
+    font-size: 16px;
+    color: #ecf0f1;
+    margin: 10px 0;
+}
+
+.interest-footer a {
+    margin: 0 5px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.interest-footer a img {
+    height: 20px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.interest-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Social Icons */
+.interest-footer-icons {
+    margin-top: 10px;
+}
