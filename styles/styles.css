@@ -402,19 +402,19 @@ footer .social-links {
 }
 
 }
-/* Container to hold the images side by side */
+
 .interest-pics {
     display: flex;
-    justify-content: center; /* Center the images horizontally */
-    gap: 20px; /* Add space between the images */
-    margin: 20px 0; /* Add some margin to the top and bottom */
+    justify-content: space-between;
+    gap: 0px; 
+    margin: 20px 0; 
 }
 
-/* Style the images */
+
 .P3card-img, .P3card-img2 {
-    width: 47%; /* Adjust this value to control the size */
+    width: 49%; 
     height: auto;
-    border: 2px solid #ccc; /* Optional: add a border for styling */
+    border: 2px solid #ccc; 
 
 .interest-title-section {
     grid-column: span 3;
